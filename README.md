@@ -3,9 +3,11 @@
 Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech. A part of speech is a category of words with similar grammatical properties. Common English parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, etc.
 
 Given the input sentence: 
+
 "He also is a consensus manager ."
 
 The POS tagger should output the following: 
+
 "He/PRP also/RB is/VBZ a/DT consensus/NN manager/NN ./."
 
 This repository contains a Hidden Markov Model (Viterbi) algorithm used to perform POS tagging, achieving a test accuracy of 95.88%.
