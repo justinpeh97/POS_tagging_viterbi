@@ -24,8 +24,13 @@ Run the followings commands to test the algorithm:
 
 <br />
 
-python buildtagger.py sents.train model-file   <br /> 
-python runtagger.py sents.test model-file sents.out <br />
-python eval.py sents.out sents.answer <br />
-
+````
+python buildtagger.py sents.train model-file  
+````
+````
+python runtagger.py sents.test model-file sents.out
+````
+````
+python eval.py sents.out sents.answer
+````
 Note that runtagger.py takes 1-2 minutes to run.
